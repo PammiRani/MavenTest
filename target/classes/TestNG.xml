@@ -3,15 +3,18 @@
 
 <suite name="MavenTestSuite">
 
-<listeners>
+<!-- <listeners>
    <listener class-name="Analyzer.MyTransformer"/>
-</listeners>
+</listeners> -->
 
    <test name="MavenTest">
    
         <classes>
         
-             <class name="qa.com.testcases.TestCase1"/>
+           <!--   <class name="qa.com.testcases.TestCase1"/> -->
+            <!--   <class name="qa.com.testcases.LoginTest"/> -->
+                <class name="qa.com.testcases.HomePageTest"/>
+                <class name="qa.com.testcases.ContactPageTest"/>
         
         </classes>
    
